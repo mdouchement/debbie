@@ -19,7 +19,7 @@ hard-working hands!
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
   frames.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
-* [**Coolline**][coolline][**Coderay**][coderay] for syntax highlighting as
+* [**Coolline**][coolline] & [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
 
