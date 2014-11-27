@@ -1,9 +1,9 @@
-require 'jazz_hands/version'
-require 'jazz_hands/railtie' if defined?(Rails)
+require 'debbie/version'
+require 'debbie/railtie' if defined?(Rails)
 require 'active_support'
 require 'readline'
 
-module JazzHands
+module Debbie
 
   ### Options ###
 
@@ -35,7 +35,7 @@ module JazzHands
     #
     # Call from a Rails initializer:
     #
-    #   JazzHands.enable_syntax_highlighting_as_you_type!
+    #   Debbie.enable_syntax_highlighting_as_you_type!
     #
     def enable_syntax_highlighting_as_you_type!
       raise 'Syntax highlighting only supported on 1.9.3+' unless RUBY_VERSION >= '1.9.3'

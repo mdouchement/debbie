@@ -1,3 +1,12 @@
+## 0.6.0 (2014-11-27)
+
+* Rename from [jazz_hands][jazz_hands] to [debbie][debbie]
+* Remove unused gems like,
+  - [**Pry Doc**][pry-doc] to browse Ruby source, including C, directly from the console.
+  - [**Pry Git**][pry-git] to teach the console about git. Diffs, blames, and
+  commits on methods and classes, not just files.
+  - [**Pry Debugger**][pry-debugger] to turn the console into a simple debugger.]
+
 ## 0.5.2 (2013-10-24)
 
 * Upgrade [pry-rails][pry-rails] to the latest 0.3.2,
@@ -109,6 +118,8 @@
   pretty colors.
 
 
+[debbie]:             https://github.com/goodpeople/debbie
+[jazz_hands]:         https://github.com/nixme/jazz_hands
 [pry]:                http://pry.github.com
 [awesome_print]:      https://github.com/michaeldv/awesome_print
 [pry-doc]:            https://github.com/pry/pry-doc
