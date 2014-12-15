@@ -22,18 +22,22 @@ hard-working hands!
 * [**Coolline**][coolline] & [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
+## To-Do
+
+* [**Simple log time profiler**][simple-log-time] Add a Simple Ruby Profiler for logging time consume in stuff
+
 
 ## Usage
 
-Ruby 1.9.2+, Rails 3 or 4 only. Add to your project Gemfile:
+Ruby 1.9.3+, Rails 3 or 4 only. Add to your project Gemfile:
 
 ```ruby
 group :development, :test do
-  gem 'debbie', git: 'git@github.com:goodpeople/debbie.git'
+  gem 'debbie'
 end
 ```
 
-That's it. Run `rails console` as usual.
+That's it. Run `bundle` and then `bundle exec rails c` as usual.
 
 [Hirb][hirb] isn't enabled by default. To use, run `Hirb.enable` in the console.
 
@@ -96,3 +100,4 @@ file an [issue][issues]. [Project changelog][changelog].
 [pullrequests]:       https://github.com/goodpeople/debbie/pulls
 [issues]:             https://github.com/goodpeople/debbie/issues
 [changelog]:          https://github.com/goodpeople/debbie/blob/master/CHANGELOG.md
+[simple-log-time]:    http://www.pablocantero.com/blog/2014/08/17/quick-and-dirty-simple-ruby-profiler/
