@@ -1,3 +1,7 @@
+## 0.6.1 (2015-06-26)
+
+* Add [pry-nav][pry-nav] to the toolset
+
 ## 0.6.0 (2014-11-27)
 
 * Rename from [jazz_hands][jazz_hands] to [debbie][debbie]
@@ -132,3 +136,4 @@
 [pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
 [pry-debugger]:       https://github.com/nixme/pry-debugger
 [pry-rails]:          https://github.com/rweng/pry-rails
+[pry-nav]:            https://github.com/nixme/pry-nav

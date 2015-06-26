@@ -23,6 +23,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'pry-rails', '~> 0.3'
   gem.add_runtime_dependency 'pry-stack_explorer', '~> 0.4'
   gem.add_runtime_dependency 'pry-remote', '>= 0.1.7'
+  gem.add_runtime_dependency 'pry-nav', '~> 0.2.4'
   gem.add_runtime_dependency 'hirb', '~> 0.7'
   gem.add_runtime_dependency 'coolline', '>= 0.4.2'
   gem.add_runtime_dependency 'awesome_print', '~> 1.2'
