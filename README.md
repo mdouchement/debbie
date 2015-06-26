@@ -19,6 +19,7 @@ hard-working hands!
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
   frames.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
+* [**Pry Nav**][pry-nav] teaches Pry about step, next, and continue to create a simple debugger.
 * [**Coolline**][coolline] & [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
@@ -101,3 +102,4 @@ file an [issue][issues]. [Project changelog][changelog].
 [issues]:             https://github.com/goodpeople/debbie/issues
 [changelog]:          https://github.com/goodpeople/debbie/blob/master/CHANGELOG.md
 [simple-log-time]:    http://www.pablocantero.com/blog/2014/08/17/quick-and-dirty-simple-ruby-profiler/
+[pry-nav]:            https://github.com/nixme/pry-nav
