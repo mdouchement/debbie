@@ -1,3 +1,7 @@
+## 0.6.2 (2015-09-05)
+
+* Replace [pry-nav][pry-nav] with [pry-byebug][pry-byebug]
+
 ## 0.6.1 (2015-06-26)
 
 * Add [pry-nav][pry-nav] to the toolset
@@ -137,3 +141,4 @@
 [pry-debugger]:       https://github.com/nixme/pry-debugger
 [pry-rails]:          https://github.com/rweng/pry-rails
 [pry-nav]:            https://github.com/nixme/pry-nav
+[pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug

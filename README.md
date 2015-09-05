@@ -2,7 +2,7 @@ Debbie
 ==========
 Fully based on the amazing work of [@nixme][nixme] (Gopal Patel) on his gem [**Jazz Hands**][jazz_hands]
 
-__**We only removed some stuff that we're not using it and also remove some stuff that are not compatible with ruby > 2.0.0**__
+__**We only removed some stuff that we're not using it**__
 
 ---
 
@@ -19,7 +19,7 @@ hard-working hands!
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
   frames.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
-* [**Pry Nav**][pry-nav] teaches Pry about step, next, and continue to create a simple debugger.
+* [**Pry Byebug**][pry-byebug] Adds step, next, finish and continue commands and breakpoints to Pry using byebug.
 * [**Coolline**][coolline] & [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
@@ -30,7 +30,7 @@ hard-working hands!
 
 ## Usage
 
-Ruby 1.9.3+, Rails 3 or 4 only. Add to your project Gemfile:
+Ruby 2+, Rails 3 or 4 only. Add to your project Gemfile:
 
 ```ruby
 group :development, :test do
@@ -102,4 +102,4 @@ file an [issue][issues]. [Project changelog][changelog].
 [issues]:             https://github.com/goodpeople/debbie/issues
 [changelog]:          https://github.com/goodpeople/debbie/blob/master/CHANGELOG.md
 [simple-log-time]:    http://www.pablocantero.com/blog/2014/08/17/quick-and-dirty-simple-ruby-profiler/
-[pry-nav]:            https://github.com/nixme/pry-nav
+[pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
