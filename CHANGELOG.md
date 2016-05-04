@@ -1,3 +1,7 @@
+## 1.0.0 (2016-05-04)
+
+* Remove [pry-remote][pry-remote] in favor to use [pry-byebug][pry-byebug]
+
 ## 0.6.2 (2015-09-05)
 
 * Replace [pry-nav][pry-nav] with [pry-byebug][pry-byebug]
