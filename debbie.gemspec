@@ -22,7 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "pry", "~> 0.10"
   gem.add_runtime_dependency "pry-doc", "~> 0.6"
   gem.add_runtime_dependency 'pry-rails', '~> 0.3'
-  gem.add_runtime_dependency 'pry-stack_explorer', '~> 0.4'
   gem.add_runtime_dependency 'pry-byebug'
   gem.add_runtime_dependency 'hirb', '~> 0.7'
   gem.add_runtime_dependency 'coolline', '>= 0.4.2'

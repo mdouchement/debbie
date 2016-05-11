@@ -1,6 +1,5 @@
 require 'pry'
 require 'pry-rails'
-require 'pry-stack_explorer'
 require 'awesome_print'
 require 'debbie/hirb_ext'
 

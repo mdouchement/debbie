@@ -1,3 +1,7 @@
+## 1.0.1 (2016-05-11)
+
+* Remove [pry-stack_explorer][pry-stack_explorer]
+
 ## 1.0.0 (2016-05-04)
 
 * Remove [pry-remote][pry-remote] in favor to use [pry-byebug][pry-byebug]
