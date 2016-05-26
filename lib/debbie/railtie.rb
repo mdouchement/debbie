@@ -13,7 +13,7 @@ module Debbie
 
         # Use awesome_print for output, but keep pry's pager. If Hirb is
         # enabled, try printing with it first.
-        Pry.config.print = ->(output, value) do
+        Pry.config.print = proc do |output, value|
           return if Debbie._hirb_output && Hirb::View.view_or_page_output(value)
           pretty = value.ai(indent: 2)
           Pry::Helpers::BaseHelpers.stagger_output("=> #{pretty}", output)
