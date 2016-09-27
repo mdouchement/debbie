@@ -29,8 +29,10 @@ hard-working hands!
 
 
 ## Usage
+> #### IMPORTANT 
+> This version of **debbie** works on ruby version > 2.2, if you need to use it on a ruby 2.1+ or 2.0+ stick with the version 1.0.2
 
-Ruby 2+, Rails 3 or 4 only. Add to your project Gemfile:
+Ruby 2.2+, Rails 3 or 4 only. Add to your project Gemfile:
 
 ```ruby
 group :development, :test do

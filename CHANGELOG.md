@@ -1,3 +1,12 @@
+## 2.0.0 (2016-09-27)
+
+* Drop compatibility for `ruby < 2.2`
+* Add support to Rails 5 (thanks to @printercu)
+
+## 1.0.2 (2016-05-25)
+
+* Fix due to a change on the Pry block (thanks to @printercu)
+
 ## 1.0.1 (2016-05-11)
 
 * Remove [pry-stack_explorer][pry-stack_explorer]
