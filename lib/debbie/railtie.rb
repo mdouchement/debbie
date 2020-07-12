@@ -38,7 +38,7 @@ module Debbie
         name = app.class.parent_name.underscore
         colored_name = -> { blue.(name) }
 
-        line = ->(pry) { "[#{bold.(pry.input_array.size)}] " }
+        line = ->(pry) { "[#{bold.(pry.input_ring.size)}] " }
         target_string = ->(object, level) do
           level = 0 if level < 0
           unless (string = Pry.view_clip(object)) == 'main'
@@ -54,7 +54,7 @@ module Debbie
           end,
           ->(object, level, pry) do      # Wait prompt in multiline input
             spaces = ' ' * (
-              "[#{pry.input_array.size}] ".size +  # Uncolored `line.(pry)`
+              "[#{pry.input_ring.size}] ".size +  # Uncolored `line.(pry)`
               name.size +
               target_string.(object, level).size
             )
